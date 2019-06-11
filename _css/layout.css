@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/*FORMATA�AO LAYOUT DO SITE*/
+body{
+  /*background-color: rgb(46,139,87);*/
+  background-color: turquoise;
+}
+
+nav#menu a{
+  text-align: justify;
+  text-decoration: none;
+  color: #000000;
+}
+
+nav#menu a:hover{
+  color: rgb(255,215,0);
+}
+
+/*FORMATA�AO DO MENU*/
+header#cabecalho h1{
+  font-family: 'Noto Serif SC', serif;
+  font-size: 39px;
+  margin-bottom: 0px;
+  margin-top: -10px;
+  text-align: center;
+  right: 30%;
+}
+
+header#cabecalho h2{
+  font-family: 'Slabo 27px', serif;
+  font-size: 22px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+header#cabecalho {
+  border-bottom: 5px rgba(255,215,0,.5) solid;
+  height: 82px;
+  background: url("_imagens/sorvetelogo.png") no-repeat;
+}
+
+nav#menu ul#primeira{
+  text-transform: uppercase;
+  list-style: none;
+  position: absolute;
+  top: -2.3%;
+  left: 12.5%;
+}
+
+nav#menu ul#segunda{
+  color: rgb(255,215,0);
+  text-transform: uppercase;
+  list-style: none;
+  position: absolute;
+  top: -2.3%;
+  left: 60.2%;
+}
+
+nav#menu a{
+  display: inline-block;
+  background-color: rgba(0,250,154,.7);
+  padding: 10px;
+  margin: 15px;
+  color: #000000;
+}
+
+nav#menu a:hover{
+  color: rgb(255,215,0);
+  background-color: rgba(154,205,50,.5);
+}
+
+/*FORMATA��O RODAPE*/
+footer#rodape{
+  border-top: 1px solid #000000;
+  margin-top: 23px;
+}
+
+footer#rodape p{
+  text-align: center;
+  color: rgba(75,0,130,.5);
+  font-size: 10pt;
+}
+
+footer#rodape a{
+  text-decoration: none;
+}
+
+/*FORMATA��O INTERFACE*/
+div#interface{
+  width: 900px;
+  background-color: rgba(0,255,0, .3);
+  margin: -20px auto 0px auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+  padding: 10px 10px 10px 10px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Sorvete In Box</title>
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:700|Slabo+27px" rel="stylesheet">
+  <link rel="stylesheet" href="_css/cadastro.css">
+  <link rel="stylesheet" href="_css/duvidas.css">
+</head>
+<body>
+<div id="interface">
+	<form id="cadastro">
+        <h1>Calmaí, tá quase ;)</h1>
+		<legend id="Lentrar">Complete as informações abaixo:</legend>
+		<!-- Cemail e Csenha: O 'C' significa Cadastro -->
+        <p class="pergunta"><label for="Cnome">Digite seu nome completo:</label></p>
+        <p><input type="text" name="nome" id="Cnome" size="20" maxlength="30" placeholder="Beltrano da Silva"/></p>
+        <p class="pergunta"><label for="Cemail">Digite seu email:</label></p>
+        <p><input type="email" name="email" id="Cemail" size="20" maxlength="30" placeholder="exemplo@exemplo.com"/></p>        
+        <p class="pergunta"><label for="Cemail2">Confirme seu email:</label></p>
+        <p><input type="email" name="email2" id="Cemail2" size="20" maxlength="30" placeholder="exemplo@exemplo.com"/></p>
+        <p class="pergunta"><label for="Cpassword">Digite uma senha:</label></p>
+        <p><input type="password" name="passowrd" id="Cpassword" size="20" maxlength="20" placeholder="Digite sua senha"/></p>
+        <p class="pergunta"><label for="Cpassword2">Confirme sua senha:</label></p>
+        <p><input type="password" name="passowrd2" id="Cpassword2" size="20" maxlength="20" placeholder="Digite sua senha"/></p>
+        <p class="pergunta"><label for="Ctel">Digite seu telefone:</label></p>
+        <p><input type="tel" name="tel" id="Ctel" size="20" maxlength="30" placeholder="(xx)xxxx-xxxx"/></p>
+        <p class="pergunta"><label for="Ccity">Selecione sua cidade:</label></p><select name="city" id="Ccity">
+                <optgroup label="Escolha uma das opções">
+                    <option value="CM">Campo Mourão</option>
+                    <option value="Mga">Maringá</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="Crba">Curitiba</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="Brl">Brasília</option>
+                    <option value="VC">Verdes Campos</option>
+                    <option value="MGS">Mato Grosso do Sul</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="Nenhuma das opções"> </option>  
+                </optgroup>                 
+            </select>
+        <p class="pergunta"><label for="Cbirthday">Digite sua data de nascimento:</label></p>
+        <p><input type="date" name="birthday" id="Cbirthday" size="20" maxlength="30"/></p>    
+        <button type="submit" id="terminar">Concluir</button>
+        <a href="index.html"><button type="button" id="cancelar">Cancelar</button></a>
+	</form>
+</div>
+</body>
+</html>

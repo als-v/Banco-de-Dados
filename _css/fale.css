@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+p.inicio{
+  font-family: 'Noto Serif SC', serif;
+  font-size: 22px;
+  text-align: center;
+}
+
+ul#numeros{
+  list-style: none;
+  text-align: center;
+  background-color: rgba(0,139,139,.5);
+  box-shadow: 3px 3px 10px rgb(173,255,47);
+  margin: 0px 250px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+ul#numeros li{
+	font-family: sans-serif;
+	margin: 17px;
+}
+
+li.title{
+	color: rgb(0,0,0);	
+	text-shadow: 2px black;
+	font-size: 120%;
+}
+
+li.tel{
+	color: rgba(0,0,0,.7);
+	font-size: 100%;
+	font-weight: bold;
+}

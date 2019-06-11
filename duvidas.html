@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sorvetes In Box</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:700|Slabo+27px" rel="stylesheet">
+    <link rel="stylesheet" href="_css/layout.css">
+	<link rel="stylesheet" href="_css/duvidas.css">
+  </head>
+  <script type="text/javascript">
+    function apaga(){
+      document.getElementById('cNome').value='';
+      document.getElementById('cMail').value='';
+      document.getElementById('cIce').value='';
+      document.getElementById('cMsg').value='';
+      alert("Dados enviados");
+    }
+
+  </script>
+  <body>
+  <div id="interface">
+    <header id="cabecalho">
+      <hgroup>
+      <h1>Sorvete In Box &copy</h1>
+      <h2>Um sorvete como você nunca viu</h2>
+      </hgroup>
+      <nav id="menu">
+          <ul id="primeira">
+            <a href="index.html">Home</a>
+            <a href="login.html">Perfil</a>
+          </ul>
+          <ul id="segunda">
+            <a href="duvidas.html">Dúvidas</a>
+            <a href="login.html">Fazer pedido</a>
+          </ul>
+      </nav>
+    </header>
+<section id="corpo">
+    <p id="linha1">Bem-vindo(a) a página de dúvidas e respostas da Sorvete In Box &copy<br/>Somos a primeira empresa 100% online em nosso ramo. Temos funcionários nos centros de distribuição, e em nosso site, contamos com uma equipe pronta a te atender, que trabalha 24 horas por dia. Com isso, recebemos milhares de dúvidas, reclamações e sugestões por dia, e visando a responder todos, montamos essa parte do nosso site, destinada a responder todas as duvidas mais frequentes. Então se a sua dúvida não aparecer, não se desespere, você pode nos enviar uma mensagem no final dessa página ou nos ligar em nossos numeros de atendimento disponíveis, mas tenha certeza de que ela já não foi respondida.</p>
+    <p class="pergunta">Pergunta 1: Quais são as etapas para eu fazer o pedido?</p>
+    <ol id="instrucoes">
+      <p>ETAPAS:</p>
+      <li>Ao entrar em nosso site, na sessão 'Home', você deverá fazer o login, ou se não tiver uma conta, deverá se cadastrar para começar!</li><br/>
+      <li>Após o cadastro/login, você deverá ir na página 'Fazer Pedido', la onde toda a mágica irá acontecer!</li><br/>
+      <li>Nessa página você seleciona as opções de sabores que quer, coberturas, tamanhos, entre outras variedades de opções.</li><br/>
+      <li>E no final, você escolhe uma de nossas instalações, onde você irá retirar seu produto!</li><br/>
+    </ol>
+    <p class="pergunta">Pergunta 2: Quais são os sabores de sorvete disponíveis?</p>
+    <p class="resposta">Bem, atualmente, possuímos mais de 30 sabores de sorvetes, dentre eles: Chocolate, Baunilha, Morango, Coco, Passas, Creme, Maracujá, Milho, Açaí, Doce de Leite, entre outros que você encontra na área de fazer o pedido. Inclusive, no final dessa página, você poderá enviar sugestões de sabores para a nossa equipe, pois quanto maior a procura, mais chances de ele aparecer logo logo no nosso menu</p>
+    <p class="pergunta">Pergunta 3: Oque eu posso fazer se a minha cidade não possuir uma filial da Sorvetes In Box?</p>
+    <p class="resposta">Bom, eu diria então que você mora em outro planeta. Atualmente, a Sorvetes In Box, possui parcerias com outras sorveterias, como a Gebon, a SoftCrean, entre outras, e essa parceria nos garante estar em todos os lugares do brasil. Temos uma filial em todos as cidades do Brasil, basta procurar por mais informações na sua própria cidade, ou nos ligar pelos nossos telefones.</p>
+    <p class="pergunta">Pergunta 4: Cheguei em casa, e percebi que meu pedido está diferente do que eu pedi, e agora?</p>
+    <p class="resposta">Quando isso acontecer, você deve imediatamente avisar aos nossos funcionários. Nesses casos, pedimos ambas as fotos do comprovante do pedido, e do produto, se for constatado, que realmente, o seu pedido foi um engano, esse mesmo fica com você como cortesia de utilizar nossos produtos, e um novo é feito e entregue para você!</p>
+    <p class="pergunta">Pergunta 5: Quanto tempo demora para o pedido ficar pronto?</p>
+    <p class="resposta">Bom, isso é relativo, não temos como prever a quantidade exata, mas podemos dizer com certeza, pois tudo depende do seu pedido em exclusivo. Por exemplo, um pedido simples, vai ser entregue muito mais rápido do que um pedido com varios acompanhamentos e etc. Mas independente do caso, temos uma média estimada de 5 a 8 minutos.</p>
+    <p id="linha2">Se sua dúvida ainda não foi respondida, sinta-se a vontade para nos mandar uma mensagem abaixo, ou em nossas redes sociais, ou ainda, você pode nos contatar em nossos <a href="faleconosco.html" id="tel">números disponíveis</a>.</p>
+    <form method="post" id="fDuvidas" action="mailto:alisson.v3@hotmail.com">
+      <fieldset id="fDuvidas">
+        <legend>Fale-Conosco</legend>
+        <p><label for="cNome">Nome:</label><input type="text" name="fNome" id="cNome" size="20" maxlength="30" placeholder="Digite seu nome completo"/></p>
+        <p><label for="cMail">Email:</label><input type="email" name="fMail" id="cMail" size="20" maxlength="30" placeholder="exemplo@exemplo.com"/></p>
+        <p><label for="cIce">Sugestão de sabor:</label><input type="text" name="fIce" id="cIce" size="10" maxlength="20" placeholder="Digite um sabor"/></p>
+        <p><label for="cMsg">Dúvida:</label><textarea name="fMsg" id="cMsg" cols="35" rows="5" placeholder="Deixe aqui sua mensagem."/></textarea></p>
+        <input type=button name="fButton" id="cButton" value="Enviar" onclick="apaga();">
+      </fieldset>
+    </form>
+</section>
+<footer id="rodape">
+<p><a href="https://www.facebook.com/Sorvetes-In-Box-Company-709931342754940/" target="_blank">Facebook</a> | <a href="https://twitter.com/SorvetesB" target="blank">Twitter</a></p>
+</footer>
+  </div>
+  </body>
+</html>
