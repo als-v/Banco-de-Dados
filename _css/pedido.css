@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+p#pedido {
+    text-align: center;
+}
+
+div#tabela {
+    text-align: center;
+    background-color: aquamarine;
+}
