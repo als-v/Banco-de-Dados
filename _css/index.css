@@ -19,7 +19,7 @@ p#L1{
 p#L2{
   font-family: 'Noto Serif SC', serif;
   text-align: center;
-  font-size:14px;
+  font-size:12px;
 }
 
 p#L2 a{
@@ -64,7 +64,7 @@ ul#localidades a:hover{
 */
 
 /*ALBUM*/
-ul#album{
+/* ul#album{
   width: 700px;
   margin: 0 auto;
   padding: 50px;
@@ -171,4 +171,4 @@ ul#album li#foto06{
 ul#album li#foto06:hover{
   background-position: 0px 0px;
   background-size: 200px 200px;
-}
+} */
