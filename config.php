@@ -7,7 +7,7 @@ session_start(); // Inicio da sessão
 $_SESSION["host"] = "localhost";
 $_SESSION["user"] = "root";
 $_SESSION["pswd"] = "";
-$_SESSION["banco"] = "dbps";
+$_SESSION["banco"] = "sorvete";
 
 	/* Validação do login. Criação da variavel caso n exista, para não ocorrer erro */
 	if(!isset($_SESSION['perm'])) {	
