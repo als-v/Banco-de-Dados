@@ -7,9 +7,10 @@ header("Content-type: text/html; charset=utf-8");
 header("Content-type: text/html; charset=utf-8");
 	/* Request do usuario e senha */
 	$logcad = $_REQUEST["logcad"];
-	$email = $_REQUEST["email"];
-	$senha = $_REQUEST["senha"];
-	//$senha = md5($senha);
+    $email = $_REQUEST["email"];
+    $senha = $_REQUEST["senha"];
+    //$senha = md5($senha);
+    
 	/* coneção com o banco e a tabela. Select na tabela */
 	$conectbd = mysqli_connect($_SESSION["host"], $_SESSION["user"], $_SESSION["pswd"], $_SESSION["banco"]);
 	$select = mysqli_query($conectbd, "select c.email, c.senha from cliente c;");
@@ -19,13 +20,15 @@ header("Content-type: text/html; charset=utf-8");
     //login
 	if ($logcad == "log") {
 		$select = mysqli_query($conectbd, "select c.email, c.senha from cliente c where c.email = '$email' and c.senha = '$senha';");
-		if (!$select || mysqli_num_rows($select) == 0){
+        $nome = mysqli_query($conectbd, "select c.nome from cliente c where c.email = '$email';");
+        if (!$select || mysqli_num_rows($select) == 0){
         $x = 1;
 		}else{
 		
 		/* Leitura e reposta do login. E gravação na sessão dos dados do usuario */
 		$rows = mysqli_fetch_array($select);
-		$_SESSION["email"] = $email;
+        $_SESSION["email"] = $email;
+        $_SESSION["nome"] = $nome;
 		$x = 0;
 		}
     }
@@ -40,14 +43,16 @@ header("Content-type: text/html; charset=utf-8");
         $select = mysqli_query($conectbd, "select c.cpf, c.email from cliente c");
             /*Verificação se ja existe o usuario*/
                 while ($rows = mysqli_fetch_array($select)){
-                    if ($rows['cpf'] == $cpf || $rows['email'] == $email) {
+                    if ($rows['cpf'] == $cpf) {
                         $x = 1;
+                    }
+                    if($rows['email'] == $email) {
+                        $x = 2;
                     }
                 }
     
                 if ($x == 0) {
                     $select = mysqli_query($conectbd, "insert into cliente (email, cpf, nome, senha, telefone, cidade, nascimento) values('$email', $cpf, '$nome', '$senha', $telefone, '$cidade', $nascimento);");
-                    //$select1 = mysqli_query($conectbd, "insert into tese (a) values('aaa');");
                 }
             }
     

@@ -47,7 +47,7 @@
 <body>
 <div id="interface">
 	<form id="login">
-		<legend id="Lentrar">Entrar</legend>
+		<legend id="Lentrar">Login</legend>
 		<!-- Lemail e Lsenha: O 'L' significa Login -->
     <p><input type="email" name="email" id="Lemail" size="20" maxlenght="35" placeholder="Email"></p>
     

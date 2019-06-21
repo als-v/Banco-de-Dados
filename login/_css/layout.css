@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+/*CORPO DO SITE*/
+
+body{
+  background-color: turquoise; /* Fundo da pag */
+}
+
+div#interface{ /* interface acima do fundo da pag */
+  width: 900px;
+  background-color: rgba(0,255,0, .3);
+  margin: -20px auto 0px auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+  padding: 10px 10px 10px 10px;
+}
+
+/*TODO O CABECALHO*/
+
+
+header#cabecalho h1{ /* SORVETE IN BOX */
+  font-family: 'Noto Serif SC', serif;
+  font-size: 39px;
+  margin-bottom: 0px;
+  margin-top: -10px;
+}
+
+header#cabecalho h2{ /* Um sorvete como você nunca viu */
+  font-family: 'Slabo 27px', serif;
+  font-size: 22px;
+  margin-top: 0px;
+}
+
+header#cabecalho { /* Cabecalho com as os botoes */
+  border-bottom: 5px rgb(153, 255, 153) solid;
+  height: 82px; 
+}
+
+nav#menu ul#segunda{  /* posicao de todos os botoes */
+  color: rgb(255,215,0);
+  text-transform: uppercase;
+  list-style: none;
+  position: absolute;
+  top: -7%;
+  left: 36.3%;
+}
+
+nav#menu a{ /* configs dos botoes */
+  text-align: justify;
+  text-decoration: none;
+  color: #000000;
+  display: inline-block;
+  background-color: rgb(153, 255, 153);
+  padding: 10px;
+  margin: 50px;
+  color: #000000;
+}
+
+nav#menu a:hover{ /* efeito ao passar em cima do botao */
+  color: rgb(0,0,0);
+  background-color: rgba(154,205,50,.5);
+} 
+
+nav#menu ul#segunda a#exit{  /* botao sair */
+  background-color: rgb(255, 102, 102);
+}
+
+nav#menu ul#segunda a#exit:hover{  /* efeito ao passar em cima do botao sair */
+  background-color: rgb(255, 179, 179);
+}
+
+/*TODO O RODAPE*/
+footer#rodape{
+  border-top: 1px solid #000000;
+  margin-top: 23px;
+}
+
+footer#rodape p{
+  text-align: center;
+  color: rgba(75,0,130,.5);
+  font-size: 10pt;
+}
+
+footer#rodape a{
+  text-decoration: none;
+} 

@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+p#inicio{
+  font-family: 'Noto Serif SC', serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+p#L1{
+  font-family: 'Noto Serif SC', serif;
+  text-align: center;
+  font-size:14px;
+}
+
+p#L2{
+  font-family: 'Noto Serif SC', serif;
+  text-align: center;
+  font-size:12px;
+}
+
+p#L2 a{
+  text-decoration: none;
+}
