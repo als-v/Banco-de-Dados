@@ -1,5 +1,13 @@
 <?php
+<<<<<<< HEAD
  //require_once "config.php";
+=======
+<<<<<<< HEAD
+ require_once "config.php";
+=======
+ //require_once "config.php";
+>>>>>>> 6b9c8e6baa04ec2a8824fb8379bf2d73c9563510
+>>>>>>> e3f5b5e95fb6c74e80e816ae8a9d12dc5886701d
  ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -8,6 +16,7 @@
   <title>Sorvete In Box</title>
   <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:700|Slabo+27px" rel="stylesheet">
   <link rel="stylesheet" href="_css/login.css">
+<<<<<<< HEAD
 
   <script type="text/javascript">
 	function alt(senha, tel){
@@ -95,6 +104,11 @@
 </head>
 <body>
   <div id="interface">
+=======
+  <div id="interface">
+<<<<<<< HEAD
+=======
+>>>>>>> e3f5b5e95fb6c74e80e816ae8a9d12dc5886701d
     <form id="login">
   		<legend id="Lentrar">Digite sua nova senha:</legend>
   		<!-- Lemail e Lsenha: O 'L' significa Login -->
@@ -104,6 +118,7 @@
 
       <p><input type="number" name="tel" id="tel" maxlenght="11"></p>
 
+<<<<<<< HEAD
       <button type="button" id="buton" Onclick="alt(password.value, tel.value)">Confirmar</button>
 
       <p id="excluir"><a href="index.php" id="unic" Onclick="del()">Excluir conta</a></p>
@@ -113,3 +128,11 @@
     </form>
   </div>
 </body>
+=======
+      <button type="button" id="buton" Onclick="log(Lemail.value, Lsenha.value)">Confirmar</button>
+
+  		<p id="cima"><a href="index.php" id="unic">Voltar</a></p>
+  	</form>
+  </div>
+>>>>>>> 6b9c8e6baa04ec2a8824fb8379bf2d73c9563510
+>>>>>>> e3f5b5e95fb6c74e80e816ae8a9d12dc5886701d
