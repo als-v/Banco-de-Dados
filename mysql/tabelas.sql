@@ -3,14 +3,14 @@ DROP TABLE IF EXISTS sorvete;
 DROP TABLE IF EXISTS pedido;
 
 create table cliente(
-id_cliente integer auto_increment,
+id_cliente integer,
 email varchar(200),
 cpf integer,
 nome varchar(200),
 senha varchar(200),
 telefone integer,
 cidade varchar(200),
-nascimento year,
+nascimento date,
 primary key (id_cliente, email, cpf)
 );
 

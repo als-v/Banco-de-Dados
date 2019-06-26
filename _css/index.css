@@ -26,8 +26,8 @@ p#L2 a{
   text-decoration: none;
 }
 
-
-/* ANTIGO MENU */
+/*
+ANTIGO MENU
 ul#localidades{
   list-style: none;
   background-color: rgba(0,139,139,.5);
@@ -61,3 +61,114 @@ ul#localidades a{
 ul#localidades a:hover{
   color: #ffffff;
 }
+*/
+
+/*ALBUM*/
+/* ul#album{
+  width: 700px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+  list-style: none;
+}
+
+ul#album-fotos li span{
+  opacity: 0;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px black;
+  background-color: rgba(0, 0, 0, .3);
+  font-size: 9pt;
+  line-height: 370px;
+  padding: 5px;
+}
+
+ul#album li:hover span{
+  opacity: 1;
+}
+
+ul#album li{
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border: 5px solid #ffffff;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, .4);
+  -webkit-transition: all 0.3s ease-in;
+}
+
+ul#album li:hover{
+  -webkit-transform: scale(1.5);
+}
+
+ul#album li#foto01{
+  background: url(../_imagens/img_01.png) no-repeat;
+  background-position: 50% 50%;
+  background-size: 400px 400px;
+  background-color: #ffffff;
+}
+
+ul#album li#foto01:hover{
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+
+ul#album li#foto02{
+  background: url(../_imagens/img_02.png) no-repeat;
+  background-position: 50% 50%;
+  background-size: 400px 400px;
+  background-color: #ffffff;
+}
+
+ul#album li#foto02:hover{
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+
+ul#album li#foto03{
+  background: url(../_imagens/img_03.png) no-repeat;
+  background-position: 50% 50%;
+  background-size: 400px 400px;
+  background-color: #ffffff;
+}
+
+ul#album li#foto03:hover{
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+
+ul#album li#foto04{
+  background: url(../_imagens/img_04.png) no-repeat;
+  background-position: 50% 50%;
+  background-size: 400px 400px;
+  background-color: #ffffff;
+}
+
+ul#album li#foto04:hover{
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+
+ul#album li#foto05{
+  background: url(../_imagens/img_05.png) no-repeat;
+  background-position: 50% 50%;
+  background-size: 400px 400px;
+  background-color: #ffffff;
+}
+
+ul#album li#foto05:hover{
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+
+ul#album li#foto06{
+  background: url(../_imagens/img_06.png) no-repeat;
+  background-position: 50% 50%;
+  background-size: 400px 400px;
+  background-color: #ffffff;
+}
+
+ul#album li#foto06:hover{
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+} */

@@ -1,4 +1,4 @@
-@charset "UTF-8";
+cabe@charset "UTF-8";
 /*FORMATA�AO LAYOUT DO SITE*/
 body{
   /*background-color: rgb(46,139,87);*/
@@ -13,14 +13,14 @@ nav#menu a{
 
 nav#menu a:hover{
   color: rgb(255,215,0);
-} 
+}
 
 /*FORMATA�AO DO MENU*/
 header#cabecalho h1{
   font-family: 'Noto Serif SC', serif;
   font-size: 39px;
   margin-bottom: 0px;
-  margin-top: -10px;
+  margin-top: 10px;
   text-align: center;
   right: 30%;
 }
@@ -32,17 +32,20 @@ header#cabecalho h2{
   text-align: center;
 }
 
-header#cabecalho {
-  border-bottom: 5px rgba(255,215,0,.5) solid;
-  height: 82px;
-  background: url("_imagens/sorvetelogo.png") no-repeat;
+#logo {
+   max-width:180px;
+   max-height:180px;
+   width: auto;
+   height: auto;
+   position: absolute;
+   margin: -35px 140px 0px ;
 }
 
 nav#menu ul#primeira{
   text-transform: uppercase;
   list-style: none;
   position: absolute;
-  top: -2.3%;
+  top: 0.5%;
   left: 12.5%;
 }
 
@@ -51,7 +54,7 @@ nav#menu ul#segunda{
   text-transform: uppercase;
   list-style: none;
   position: absolute;
-  top: -2.3%;
+  top: 0.5%;
   left: 60.2%;
 }
 
@@ -66,7 +69,7 @@ nav#menu a{
 nav#menu a:hover{
   color: rgb(255,215,0);
   background-color: rgba(154,205,50,.5);
-} 
+}
 
 /*FORMATA��O RODAPE*/
 footer#rodape{
@@ -82,13 +85,24 @@ footer#rodape p{
 
 footer#rodape a{
   text-decoration: none;
-} 
+}
 
 /*FORMATA��O INTERFACE*/
 div#interface{
   width: 900px;
-  background-color: rgba(0,255,0, .3);
+  background-color: rgb(255,245,180);
   margin: -20px auto 0px auto;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
   padding: 10px 10px 10px 10px;
+}
+
+div#box{
+  width: 180px;
+  background-color: rgb(255,245,180);
+  margin: -800px auto 0px auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+  padding: 10px 10px 10px 10px;
+  float: right;
+  position: absolute;
+
 }
