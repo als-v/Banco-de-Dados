@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/*FORMATAÇÃO INTERFACE*/
+/*FORMATAï¿½ï¿½O INTERFACE*/
 div#interface{
   width: 16.7%;
   background-color: rgba(0,255,0, .3);
@@ -9,13 +9,14 @@ div#interface{
   padding: 10px 10px 10px 10px;
 }
 body{
-  background-color: rgb(46,139,87);
+  background-color: rgb(255,245,180);
 }
 
-/*FORMATAÇAO INPUTS*/
+/*FORMATAï¿½AO INPUTS*/
 legend#Lentrar{
 	text-align: center;
 	font-family: 'Noto Serif SC', serif;
+  color: black;
 }
 
 input#Lemail{
@@ -28,7 +29,7 @@ input#Lemail{
 	padding: 5px;
 	left: 100%;
 	border-radius: 4px;
-	color: white;
+	color: darkblue;
 }
 
 input#Lsenha{
@@ -40,7 +41,7 @@ input#Lsenha{
 	border: 0;
 	padding: 5px;
 	border-radius: 4px;
-	color: white;
+	color: darkblue;
 }
 
 button#buton{

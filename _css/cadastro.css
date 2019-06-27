@@ -9,7 +9,7 @@ div#interface{
   padding: 10px 10px 10px 10px;
 }
 body{
-  background-color: rgb(46,139,87);
+    background-color: rgb(255,245,180);
 }
 
 /*FORMATAÇÃO DOS INPUTS*/
@@ -77,10 +77,10 @@ select#Ccity{
 
 h1{
     text-align: center;
-    color: white;
+    color: black;
 }
 
 legend{
     text-align: center;
-    color: white;
+    color: black;
 }

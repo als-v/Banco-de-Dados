@@ -13,10 +13,11 @@ $row = mysqli_fetch_row($sql);
   <!-- <link href="https://fonts.googleapis.com/css?family=" rel="stylesheet">-->
   <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:700|Slabo+27px|Montserrat" rel="stylesheet">
   <link rel="stylesheet" href="_css/layout.css">
-  <link rel="stylesheet" href="_css/index.css"> 
+  <link rel="stylesheet" href="_css/index.css">
 </head>
-<body>
+<body background-repeat = "no-repeat" background = "../background2.jpg">
 <div id="interface">
+  <img src="../_imagens/logo.png" id="logo"/>
       <header id="cabecalho">
         <hgroup>
         <h1>Sorvete In Box &copy</h1>

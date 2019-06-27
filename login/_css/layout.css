@@ -8,7 +8,7 @@ body{
 
 div#interface{ /* interface acima do fundo da pag */
   width: 900px;
-  background-color: rgba(0,255,0, .3);
+  background-color: rgb(255,245,180);
   margin: -20px auto 0px auto;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
   padding: 10px 10px 10px 10px;
@@ -16,23 +16,38 @@ div#interface{ /* interface acima do fundo da pag */
 
 /*TODO O CABECALHO*/
 
+#logo {
+   max-width:165px;
+   max-height:165px;
+   width: auto;
+   height: auto;
+   position: absolute;
+   margin: -30px -23px 0px ;
+}
+
 
 header#cabecalho h1{ /* SORVETE IN BOX */
   font-family: 'Noto Serif SC', serif;
   font-size: 39px;
   margin-bottom: 0px;
   margin-top: -10px;
+  position: absolute;
+  left: 26%;
+  top: 2%;
 }
 
 header#cabecalho h2{ /* Um sorvete como você nunca viu */
   font-family: 'Slabo 27px', serif;
   font-size: 22px;
   margin-top: 0px;
+  position: absolute;
+  left: 27%;
+  top: 8%;
 }
 
 header#cabecalho { /* Cabecalho com as os botoes */
   border-bottom: 5px rgb(153, 255, 153) solid;
-  height: 82px; 
+  height: 82px;
 }
 
 nav#menu ul#segunda{  /* posicao de todos os botoes */
@@ -40,8 +55,8 @@ nav#menu ul#segunda{  /* posicao de todos os botoes */
   text-transform: uppercase;
   list-style: none;
   position: absolute;
-  top: -7%;
-  left: 36.3%;
+  top: -2%;
+  left: 47%;
 }
 
 nav#menu a{ /* configs dos botoes */
@@ -51,14 +66,14 @@ nav#menu a{ /* configs dos botoes */
   display: inline-block;
   background-color: rgb(153, 255, 153);
   padding: 10px;
-  margin: 50px;
+  margin: 20px;
   color: #000000;
 }
 
 nav#menu a:hover{ /* efeito ao passar em cima do botao */
   color: rgb(0,0,0);
   background-color: rgba(154,205,50,.5);
-} 
+}
 
 nav#menu ul#segunda a#exit{  /* botao sair */
   background-color: rgb(255, 102, 102);
@@ -82,4 +97,4 @@ footer#rodape p{
 
 footer#rodape a{
   text-decoration: none;
-} 
+}
