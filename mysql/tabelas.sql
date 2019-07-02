@@ -19,8 +19,9 @@ primary key (id_cliente, email, cpf)
 );
 
 create table sorvete(
-id_sorvete integer PRIMARY KEY AUTO_INCREMENT,
-sabor varchar(200)
+id_sorvete integer AUTO_INCREMENT,
+sabor varchar(200),
+primary key (id_sorvete)
 );
 
 create table pedido(
