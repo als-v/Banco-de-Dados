@@ -9,7 +9,11 @@ div#interface{
   padding: 10px 10px 10px 10px;
 }
 body{
+<<<<<<< HEAD
   background-color: rgb(255,245,180);
+=======
+  background-color: rgb(46,139,87);
+>>>>>>> f70236b2f06a0ffec50074219a9b110366d2aef1
 }
 
 /*FORMATA�AO INPUTS*/
@@ -71,20 +75,11 @@ p#cima{
 	margin-top:20px;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 7ae2d2cebb7e6579f628ae835b7d9cd9957d21aa
 p#excluir{
 	margin-top:20px;
   color: red;
 }
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> e3f5b5e95fb6c74e80e816ae8a9d12dc5886701d
->>>>>>> 7ae2d2cebb7e6579f628ae835b7d9cd9957d21aa
 a#unic{
 	text-decoration: none;
 }

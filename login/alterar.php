@@ -1,5 +1,9 @@
 <?php
+<<<<<<< HEAD
  //require_once "config.php";
+=======
+ //require_once "config.php"; NAO
+>>>>>>> f70236b2f06a0ffec50074219a9b110366d2aef1
  ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -92,6 +96,10 @@
 </head>
 <body>
 <div id="interface">
+<<<<<<< HEAD
+=======
+  
+>>>>>>> f70236b2f06a0ffec50074219a9b110366d2aef1
     <form id="login">
   		<legend id="Lentrar">Digite sua nova senha:</legend>
   		<!-- Lemail e Lsenha: O 'L' significa Login -->
@@ -109,3 +117,8 @@
 
     </form>
   </div>
+<<<<<<< HEAD
+=======
+</body>]
+</html>
+>>>>>>> f70236b2f06a0ffec50074219a9b110366d2aef1

@@ -56,7 +56,8 @@
     <button type="button" id="buton" Onclick="log(Lemail.value, Lsenha.value)">Entrar</button>
     
 		<p id="baixo">Não possui uma conta?</p>
-		<p id="cima"><a href="cadastro.html" id="unic">Crie uma já</a></p>
+    <p id="cima"><a href="cadastro.html" id="unic">Crie uma já</a></p>
+    <p id="cima"><a href="index.html" id="unic">Voltar</a></p>
 	</form>
 </div>
 </body>

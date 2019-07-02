@@ -1,16 +1,20 @@
+DROP DATABASE IF EXISTS sorvete;
+CREATE DATABASE sorvete;
+use sorvete;
+
 DROP TABLE IF EXISTS cliente;
 DROP TABLE IF EXISTS sorvete;
 DROP TABLE IF EXISTS pedido;
 
 create table cliente(
-id_cliente integer,
+id_cliente integer AUTO_INCREMENT,
 email varchar(200),
 cpf integer,
 nome varchar(200),
 senha varchar(200),
 telefone integer,
 cidade varchar(200),
-nascimento date,
+nascimento YEAR,
 primary key (id_cliente, email, cpf)
 );
 
@@ -30,3 +34,5 @@ foreign key (id_cliente) references cliente (id_cliente),
 foreign key (id_sorvete) references sorvete (id_sorvete),
 primary key(id_cliente, id_sorvete, id_pedido)
 );
+
+insert into cliente values (1, 'adm', 00000000000, 'adm', 'adm', 00000000000, 'Brazil', 2000);
