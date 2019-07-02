@@ -26,7 +26,7 @@ $row = mysqli_fetch_row($sql);
         <nav id="menu">
             <ul id="segunda">
             <a href="alterar.php">Alterar Perfil</a>
-            <a href="pedido.html">Fazer pedido</a>
+            <a href="pedido.php">Fazer pedido</a>
             <a href="logout.php" id="exit">Sair</a>
           </ul>
         </nav>
