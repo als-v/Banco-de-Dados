@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+#pre {
+  font-weight: bold;
+  font-size: 35px;
+  margin-left: 680px;
+  border: 2px solid rgb(0, 255, 0);
+  border-collapse: separate;
+  border-spacing: 200px;
+}
+
+div#tabela {
+  background-color: rgb(153, 255, 153);
+}
+
+.col1{
+  padding: 0px 50px;
+}
+
+.col2{
+  padding: 0px 50px;
+}
+
+.col3{
+  padding: 0px 50px;
+}
+
+.sab{
+  padding: 5px 50px;
+}
+.tam{
+  padding: 0px 10px;
+}
+.qtde{
+  padding: 0px 10px;
+}
+.pre{
+  padding: 0px 20px;
+}
+.sts{
+  padding: 0px 30px;
+}
+.sts1{
+  padding: 0px 50px;
+}
+.cli{
+  padding: 0px 30px;
+}
+.can{
+  padding: 0px 10px;
+}
+
+
+.cent{
+  text-align: center;
+}

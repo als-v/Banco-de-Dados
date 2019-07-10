@@ -9,12 +9,7 @@ div#interface{
   padding: 10px 10px 10px 10px;
 }
 body{
-<<<<<<< HEAD
-  background-color: rgb(255,245,180);
-=======
-  background-color: rgb(46,139,87);
->>>>>>> f70236b2f06a0ffec50074219a9b110366d2aef1
-}
+  background-color: rgb(255,245,180);}
 
 /*FORMATA�AO INPUTS*/
 legend#Lentrar{
